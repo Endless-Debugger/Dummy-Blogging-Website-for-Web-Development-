@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sign_up_sign_in.css">
+    <link rel="stylesheet" href="onlydivs.css">
+    <title>You Blogs</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Blogerlo
+        </h1>
+        <h2>
+            Write Your Blogs
+        </h2>
+    </header>
+    <div>
+        <form>
+            <label>
+                Title of your Blog
+            </label>
+            <br>
+            <br>
+            <input type="text" placeholder="Title of your blog" id="title-form"required>
+            <br>
+            <br>
+            <label>
+                Write your content Here
+            </label>
+            <br>
+            <br>
+            <input type="text" placeholder="write your content here" id="content-form" style="width: 300px;"required>
+            <br>
+            <br>
+            <input type="radio"value="Public"  name="scope" checked>Public
+            <input type="radio" value="Private" name="scope">Private
+            <br>
+            <br>
+            <input type="button" value="Post your Blog!" class="button-post"style="width: 200px;" onclick="WriteBlog()">
+        </form>
+    </div>
+    <div id="blog-content">
+        <h2>
+            Your Blogs:
+        </h2>
+        <div id='blogs-js'>
+
+        </div>
+    </div>
+    <script src="app2.js" defer></script>
+    
+</body>
+</html>

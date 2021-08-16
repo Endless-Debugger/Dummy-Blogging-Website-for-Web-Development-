@@ -1,0 +1,117 @@
+body{
+    background-color: #010502;
+    color: #e8c709;
+    font-family: "Noto Sans KR";
+}
+#gloat{
+    font-size: 30px;
+    margin-left: 21%;
+    width: 55%;
+    margin-top: 3%;
+    background-image: url(imgs/profoto-albert-watson-steve-jobs-pinned-image-original.jpg);
+    background-size: contain;
+    color:#e8c709;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #e8c709;
+    color:#f2f2f2;
+}
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.a_blog{
+    text-align: center;
+    font-size: 40px;
+}
+.blog-link{
+    text-decoration: none;
+    color:#e8c709;
+}
+.link{
+    margin-top: 5%;
+    background-color: #5e5757;
+    border-radius: 20px;
+    background-clip: padding-box;
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 5%
+}
+a:visited{
+    color: #e8c709;
+    text-decoration: none;
+}
+.link:hover{
+    box-shadow: 5px 2px 4px white;
+    background-color: #252323;
+}
+#navbar a:hover{
+    background-color: #ffda0a;
+    border-bottom: solid 2px white;
+}
+h1{
+    margin-left: 5%;
+    font-size: 45px;
+    
+}
+h2{
+    font-size: 35px;
+    margin-left: 5%;
+}
+#gloat-h2{
+    margin-top: 5%;
+    margin-left: 40%;
+
+}
+li{
+    font-size: 25px;
+    margin-left: 5%;
+}
+#why-h2{
+    margin-left: 40%;
+    margin-bottom: 3%;
+}
+img{
+    margin-left: 3%;
+}
+footer{
+    background-color: grey;
+    font-size: 25px;
+    text-align:center;
+    color:rgb(80, 73, 73);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+span{
+    text-decoration: line-through;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#blogs{
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+    border-radius: 10px;
+}
+#blogs div{
+    background-color: rgb(17, 16, 16);
+}
+#blogs div h3{
+    font-size: 35px;
+}
+#blogs div p{
+    font-size: 20px;
+}
